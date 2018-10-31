@@ -40,14 +40,8 @@ public class Board {
 
                 this.squares[i].setSquareName(square_name_array[i%3]+ String.valueOf(i));
             }
-
-
-
         }
-
-
     }
-
     public void movePlayer(Player player, int new_position){
 
         player.setCurrentPosition(new_position);

@@ -3,12 +3,29 @@ package com.company;
 public class Player {
 
 
-
-    private String name;
     private Money playerMoney;
     private int prisonTurnNumber;
     private int currentPosition;
+    private String name;
 
+
+    public void setPlayerMoney(Money playerMoney) {
+        this.playerMoney = playerMoney;
+    }
+
+    public void setPrisonTurnNumber(int prisonTurnNumber) {
+        this.prisonTurnNumber = prisonTurnNumber;
+    }
+
+
+
+    public Money getPlayerMoney() {
+        return playerMoney;
+    }
+
+    public int getPrisonTurnNumber() {
+        return prisonTurnNumber;
+    }
 
     public Player(String name, int playerMoneyAmount){
 

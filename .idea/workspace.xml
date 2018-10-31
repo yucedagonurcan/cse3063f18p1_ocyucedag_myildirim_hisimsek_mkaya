@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc73990d-07aa-48e1-9c2b-8b3e502025ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Land.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/TaxAdministration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Land.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Land.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,24 +29,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2964" />
-          <entry key="txt" value="337" />
+          <entry key="java" value="4245" />
+          <entry key="txt" value="341" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2964" />
-          <entry key="PLAIN_TEXT" value="337" />
+          <entry key="JAVA" value="4245" />
+          <entry key="PLAIN_TEXT" value="341" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="12" />
+          <entry key="java" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -65,17 +65,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="8" />
+            <state relative-caret-position="150">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/TaxAdministration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="31" column="100" lean-forward="true" selection-start-line="31" selection-start-column="100" selection-end-line="31" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="165">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -92,32 +141,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Land.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+            <state relative-caret-position="202">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <element signature="e#1434#1435#0" expanded="true" />
-                <element signature="e#1469#1470#0" expanded="true" />
                 <element signature="e#1654#1655#0" expanded="true" />
                 <element signature="e#1707#1708#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Hotel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/House.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -139,14 +168,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Die.java" />
         <option value="$PROJECT_DIR$/src/com/company/Money.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Player.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Game.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Square.java" />
         <option value="$PROJECT_DIR$/src/com/company/House.java" />
         <option value="$PROJECT_DIR$/src/com/company/Hotel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Land.java" />
         <option value="$PROJECT_DIR$/src/com/company/Board.java" />
+        <option value="$PROJECT_DIR$/src/com/company/TaxAdministration.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Land.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Transaction.java" />
       </list>
     </option>
   </component>
@@ -195,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540986408831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540988770546" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -239,7 +270,7 @@
       <updated>1540929235602</updated>
       <workItem from="1540929243391" duration="399000" />
       <workItem from="1540975795294" duration="7368000" />
-      <workItem from="1540986447075" duration="140000" />
+      <workItem from="1540986447075" duration="2314000" />
     </task>
     <task id="LOCAL-00001" summary="+ Die, Board, Game, Square, Money, Player and Main classes are created.&#10;+ In every turn every user rolls dice&#10;+ In every turn every can go to the square that corresponds to their current dice values.&#10;+ In every turn, every user's current situation is displayed in console.">
       <created>1540980354209</created>
@@ -262,18 +293,25 @@
       <option name="project" value="LOCAL" />
       <updated>1540984969705</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+ Class &quot;Land&quot; added.">
+      <created>1540986604390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540986604390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7907000" />
+    <option name="totallyTimeSpent" value="10081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13974153" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49626866" visible="true" weight="0.13974153" />
+      <window_info id="Structure" order="1" sideWeight="0.50373137" side_tool="true" visible="true" weight="0.13974153" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -282,7 +320,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.6328767" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.6328767" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -312,19 +350,8 @@
     <MESSAGE value="+ Die, Board, Game, Square, Money, Player and Main classes are created.&#10;+ In every turn every user rolls dice&#10;+ In every turn every can go to the square that corresponds to their current dice values.&#10;+ In every turn, every user's current situation is displayed in console." />
     <MESSAGE value="+ Class &quot;Hotel&quot; added." />
     <MESSAGE value="+ Class &quot;House&quot; added." />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Class &quot;House&quot; added." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Game.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="+ Class &quot;Land&quot; added." />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Class &quot;Land&quot; added." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Die.java">
@@ -345,22 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -370,8 +381,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="8" />
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="method#doAction#0;class#House#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Hotel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="method#doAction#0;class#Hotel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TaxAdministration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -382,37 +449,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Land.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        <state relative-caret-position="202">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="e#1434#1435#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
             <element signature="e#1654#1655#0" expanded="true" />
             <element signature="e#1707#1708#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Hotel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="147">
+          <caret line="31" column="100" lean-forward="true" selection-start-line="31" selection-start-column="100" selection-end-line="31" selection-end-column="100" />
         </state>
       </provider>
     </entry>

@@ -16,8 +16,11 @@ public class Land extends Square {
             System.out.println("Do you want to buy Land " + getSquareName() + " ? : ");
             String answer = reader.next(); // Scans the next token of the input as an int.
             if(answer.equals("Y") || answer.equals("y")){
+                Transaction transactionObject = new Transaction();
 
                 System.out.println("Land: " + getSquareName() + " will be bought by : " + player_in_action.getName() + "\n");
+                transactionObject.UserPayment(player_in_action, 100);
+
                 owner_player = player_in_action;
 
             }
@@ -30,9 +33,14 @@ public class Land extends Square {
             System.out.println("Do you want to rent Land " + getSquareName() + " ? : ");
             String answer = reader.next(); // Scans the next token of the input as an int.
             if(answer.equals("Y") || answer.equals("y")){
+                Transaction transactionObject = new Transaction();
 
                 System.out.println("Land: " + getSquareName() + " will be rented by : " + player_in_action.getName() + "\n");
+                transactionObject.MoneyTransaction(player_in_action, owner_player, 100);
+
                 rented_player = player_in_action;
+
+
 
             }
 
