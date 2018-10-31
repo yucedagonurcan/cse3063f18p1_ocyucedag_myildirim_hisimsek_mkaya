@@ -2,7 +2,8 @@ package com.company;
 
 import java.util.Scanner;
 
-public class House extends Square{
+public class Land extends Square {
+
 
 
     @Override
@@ -12,11 +13,11 @@ public class House extends Square{
         if(owner_player == null){
 
             Scanner reader = new Scanner(System.in);  // Reading from System.in
-            System.out.println("Do you want to buy House " + getSquareName() + " ? : ");
+            System.out.println("Do you want to buy Land " + getSquareName() + " ? : ");
             String answer = reader.next(); // Scans the next token of the input as an int.
             if(answer.equals("Y") || answer.equals("y")){
 
-                System.out.println("House: " + getSquareName() + " will be bought by : " + player_in_action.getName() + "\n");
+                System.out.println("Land: " + getSquareName() + " will be bought by : " + player_in_action.getName() + "\n");
                 owner_player = player_in_action;
 
             }
@@ -26,11 +27,11 @@ public class House extends Square{
         else if (rented_player == null){
 
             Scanner reader = new Scanner(System.in);  // Reading from System.in
-            System.out.println("Do you want to rent House " + getSquareName() + " ? : ");
+            System.out.println("Do you want to rent Land " + getSquareName() + " ? : ");
             String answer = reader.next(); // Scans the next token of the input as an int.
             if(answer.equals("Y") || answer.equals("y")){
 
-                System.out.println("House: " + getSquareName() + " will be rented by : " + player_in_action.getName() + "\n");
+                System.out.println("Land: " + getSquareName() + " will be rented by : " + player_in_action.getName() + "\n");
                 rented_player = player_in_action;
 
             }
@@ -55,6 +56,6 @@ public class House extends Square{
 
     @Override
     public String getSquareName() {
-        return squareName;
+        return this.squareName;
     }
 }

@@ -11,22 +11,37 @@ public class Board {
 
         Die boardDie = new Die();
 
+        String[] square_name_array = {"House", "Land", "Hotel"};
 
         for(int i=0; i< squares.length; i++){
 
-            if (boardDie.getDiceFace()%2 == 0)
-            {
-                Square new_square = new Hotel();
+
+            if(square_name_array[i%3].equals("House")){
+
+
+                Square new_square = new House();
+
                 this.squares[i] = new_square;
 
-                this.squares[i].setSquareName("Hotel"+ String.valueOf(i));
+                this.squares[i].setSquareName(square_name_array[i%3]+ String.valueOf(i));
+
+
+            }else if (square_name_array[i%3].equals("Land")){
+                Square new_square = new Land();
+
+                this.squares[i] = new_square;
+
+                this.squares[i].setSquareName(square_name_array[i%3]+ String.valueOf(i));
             }
             else{
-                Square new_square = new House();
+                Square new_square = new Hotel();
+
                 this.squares[i] = new_square;
 
-                this.squares[i].setSquareName("House"+ String.valueOf(i));
+                this.squares[i].setSquareName(square_name_array[i%3]+ String.valueOf(i));
             }
+
+
 
         }
 

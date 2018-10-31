@@ -4,11 +4,7 @@ import java.util.Scanner;
 
 public class Hotel extends Square{
 
-    private String squareName;
-    private Player owner_player;
-    private Player rented_player;
 
-    private Player currentPlayerInPosition;
 
     @Override
     public void setSquareName(String squareName) {
