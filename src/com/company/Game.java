@@ -42,7 +42,6 @@ public class Game {
 
                 this.gameDice = new Die();
                 int new_position = players[j].getCurrentPosition() +  this.gameDice.getDiceFace();
-
                 gameBoard.movePlayer(players[j], new_position);
             }
 

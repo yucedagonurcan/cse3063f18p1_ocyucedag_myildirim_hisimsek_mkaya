@@ -1,26 +1,12 @@
 package com.company;
 
-public class Square {
+public abstract class Square {
 
+    public abstract void doAction(Player player_in_action);
 
+    public abstract void setSquareName(String s);
 
-    private String squareName;
+    public abstract void setCurrentPlayerInPosition(Player player);
 
-
-    public void setSquareName(String squareName) {
-        this.squareName = squareName;
-    }
-
-    private Player currentPlayerInPosition;
-
-    public Player getCurrentPlayerInPosition() {
-        return currentPlayerInPosition;
-    }
-
-    public void setCurrentPlayerInPosition(Player currentPlayerInPosition) {
-        this.currentPlayerInPosition = currentPlayerInPosition;
-    }
-    public String getSquareName() {
-        return squareName;
-    }
+    public abstract String getSquareName();
 }
