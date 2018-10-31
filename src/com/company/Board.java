@@ -6,13 +6,28 @@ public class Board {
 
     public Board(){
 
-        this.squares = new Hotel[50];
+        this.squares = new Square[50];
+
+
+        Die boardDie = new Die();
+
+
         for(int i=0; i< squares.length; i++){
 
-            Square new_square = new Hotel();
-            this.squares[i] = new_square;
+            if (boardDie.getDiceFace()%2 == 0)
+            {
+                Square new_square = new Hotel();
+                this.squares[i] = new_square;
 
-            this.squares[i].setSquareName("Square"+ String.valueOf(i));
+                this.squares[i].setSquareName("Hotel"+ String.valueOf(i));
+            }
+            else{
+                Square new_square = new House();
+                this.squares[i] = new_square;
+
+                this.squares[i].setSquareName("House"+ String.valueOf(i));
+            }
+
         }
 
 

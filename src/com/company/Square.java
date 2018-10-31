@@ -6,6 +6,8 @@ public abstract class Square {
 
     public abstract void setSquareName(String s);
 
+    public abstract Player getCurrentPlayerInPosition();
+
     public abstract void setCurrentPlayerInPosition(Player player);
 
     public abstract String getSquareName();
