@@ -9,11 +9,9 @@ public class Game {
 
 
     public Game(int numberOfPlayers, int numberOfTurns){
-
         this.numberOfPlayers = numberOfPlayers;
         this.numberOfTurns   = numberOfTurns;
         this.players = new Player[numberOfPlayers];
-
     }
     public int getNumberOfPlayers() {
         return numberOfPlayers;
@@ -30,10 +28,9 @@ public class Game {
         for(int i=0; i< players.length; i++){
 
             Player new_player = new Player("Player" + String.valueOf(i), 500);
-
             players[i] = new_player;
-
             players[i].setCurrentPosition(0);
+
         }
 
         for(int i =0; i<this.numberOfTurns; i++){

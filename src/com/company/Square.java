@@ -6,7 +6,6 @@ public abstract class Square {
     protected String squareName;
     protected Player owner_player;
     protected Player rented_player;
-
     protected Player currentPlayerInPosition;
 
 

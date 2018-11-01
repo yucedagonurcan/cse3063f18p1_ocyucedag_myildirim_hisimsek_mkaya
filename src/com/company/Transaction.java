@@ -15,7 +15,7 @@ public class Transaction {
 
         int user_current_money_amount = this.player1.getPlayerMoney().getMoneyAmount();
         this.player1.getPlayerMoney().setMoneyAmount(user_current_money_amount- moneyAmount);
-        System.out.println("User has a new money amount: !" + player1.getName() + " : " + player1.getPlayerMoney().getMoneyAmount());
+        System.out.println(player1.getName() + " has a new money amount: " + player1.getPlayerMoney().getMoneyAmount());
 
     }
     public void MoneyTransaction(Player player1, Player player2, int moneyAmount){
@@ -31,8 +31,8 @@ public class Transaction {
         int current_money_amount_of_player2 = this.player2.getPlayerMoney().getMoneyAmount();
         this.player2.getPlayerMoney().setMoneyAmount(current_money_amount_of_player2 + moneyAmount);
 
-        System.out.println("User has a new money amount: !" + player1.getName() + " : " + player1.getPlayerMoney().getMoneyAmount());
-        System.out.println("User has a new money amount: !" + player2.getName() + " : " + player2.getPlayerMoney().getMoneyAmount());
+        System.out.println( player1.getName() + " has a new money amount: " + player1.getPlayerMoney().getMoneyAmount());
+        System.out.println( player2.getName() + " has a new money amount: " + player2.getPlayerMoney().getMoneyAmount());
 
 
     }

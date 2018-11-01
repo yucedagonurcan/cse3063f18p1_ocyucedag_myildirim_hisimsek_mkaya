@@ -21,7 +21,7 @@ public class Land extends Square {
                 System.out.println("Land: " + getSquareName() + " will be bought by : " + player_in_action.getName() + "\n");
                 transactionObject.UserPayment(player_in_action, 100);
 
-                owner_player = player_in_action;
+                this.owner_player = player_in_action;
 
             }
 
@@ -36,11 +36,14 @@ public class Land extends Square {
                 Transaction transactionObject = new Transaction();
 
                 System.out.println("Land: " + getSquareName() + " will be rented by : " + player_in_action.getName() + "\n");
-                transactionObject.MoneyTransaction(player_in_action, owner_player, 100);
+                transactionObject.MoneyTransaction(player_in_action, owner_player, 50);
 
-                rented_player = player_in_action;
+                this.rented_player = player_in_action;
 
 
+
+            }else{
+                System.out.println("Land: " + getSquareName() + " already rented by : " + rented_player.getName() + "\n");
 
             }
 

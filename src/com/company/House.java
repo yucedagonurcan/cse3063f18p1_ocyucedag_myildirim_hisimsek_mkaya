@@ -16,8 +16,10 @@ public class House extends Square{
             String answer = reader.next(); // Scans the next token of the input as an int.
             if(answer.equals("Y") || answer.equals("y")){
 
+                Transaction transactionObject = new Transaction();
                 System.out.println("House: " + getSquareName() + " will be bought by : " + player_in_action.getName() + "\n");
-                owner_player = player_in_action;
+                transactionObject.UserPayment(player_in_action, 200);
+                this.owner_player = player_in_action;
 
             }
 
@@ -30,8 +32,15 @@ public class House extends Square{
             String answer = reader.next(); // Scans the next token of the input as an int.
             if(answer.equals("Y") || answer.equals("y")){
 
+                Transaction transactionObject = new Transaction();
+
                 System.out.println("House: " + getSquareName() + " will be rented by : " + player_in_action.getName() + "\n");
-                rented_player = player_in_action;
+                transactionObject.MoneyTransaction(player_in_action, owner_player, 100);
+
+                this.rented_player = player_in_action;
+
+            }else{
+                System.out.println("House: " + getSquareName() + " already rented by : " + rented_player.getName() + "\n");
 
             }
 
