@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc73990d-07aa-48e1-9c2b-8b3e502025ef" name="Default Changelist" comment="+ Renting the already rented squares are forbidden now.&#10;+ Tax Administration squares added.&#10;+ Sale price is double of the renting price.">
+    <list default="true" id="cc73990d-07aa-48e1-9c2b-8b3e502025ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Land.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Land.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TaxAdministration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TaxAdministration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Transaction.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,14 +26,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4913" />
-          <entry key="txt" value="562" />
+          <entry key="java" value="4921" />
+          <entry key="txt" value="694" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4913" />
-          <entry key="PLAIN_TEXT" value="562" />
+          <entry key="JAVA" value="4921" />
+          <entry key="PLAIN_TEXT" value="694" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="510">
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -110,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Hotel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="128">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="method#setCurrentPlayerInPosition#0;class#Hotel#0" />
               </folding>
@@ -180,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/com/company/Money.java" />
         <option value="$PROJECT_DIR$/src/com/company/Player.java" />
         <option value="$PROJECT_DIR$/src/com/company/Square.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Transaction.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Game.java" />
         <option value="$PROJECT_DIR$/src/com/company/TaxAdministration.java" />
@@ -188,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Land.java" />
         <option value="$PROJECT_DIR$/src/com/company/House.java" />
         <option value="$PROJECT_DIR$/src/com/company/Hotel.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Transaction.java" />
       </list>
     </option>
   </component>
@@ -236,7 +230,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541177264092" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541177355043" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -281,7 +275,7 @@
       <workItem from="1540929243391" duration="399000" />
       <workItem from="1540975795294" duration="7368000" />
       <workItem from="1540986447075" duration="2367000" />
-      <workItem from="1541094865941" duration="7157000" />
+      <workItem from="1541094865941" duration="7247000" />
     </task>
     <task id="LOCAL-00001" summary="+ Die, Board, Game, Square, Money, Player and Main classes are created.&#10;+ In every turn every user rolls dice&#10;+ In every turn every can go to the square that corresponds to their current dice values.&#10;+ In every turn, every user's current situation is displayed in console.">
       <created>1540980354209</created>
@@ -325,11 +319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541102209548</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="+ Can't rent or buy any property that you already have.&#10;+ Output messages shaped into a new way.&#10;+ Square traverse is now circle.">
+      <created>1541177328300</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541177328300</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17291000" />
+    <option name="totallyTimeSpent" value="17381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -378,7 +379,8 @@
     <MESSAGE value="+ Class &quot;Land&quot; added." />
     <MESSAGE value="+ Class &quot;TaxAdministration&quot; added.&#10;+ Class &quot;Transaction&quot; added.&#10;+ We can increase and decrease players money." />
     <MESSAGE value="+ Renting the already rented squares are forbidden now.&#10;+ Tax Administration squares added.&#10;+ Sale price is double of the renting price." />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Renting the already rented squares are forbidden now.&#10;+ Tax Administration squares added.&#10;+ Sale price is double of the renting price." />
+    <MESSAGE value="+ Can't rent or buy any property that you already have.&#10;+ Output messages shaped into a new way.&#10;+ Square traverse is now circle." />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Can't rent or buy any property that you already have.&#10;+ Output messages shaped into a new way.&#10;+ Square traverse is now circle." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -417,13 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -485,11 +480,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="128">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="method#setCurrentPlayerInPosition#0;class#Hotel#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
         </state>
       </provider>
     </entry>
