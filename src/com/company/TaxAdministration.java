@@ -5,7 +5,7 @@ public class TaxAdministration extends Square {
     @Override
     public void doAction(Player player_in_action) {
 
-        System.out.println("Tax Administration will cut 100 Dollars: " + player_in_action.getName() + "\n");
+        System.out.println("    --Tax Administration will cut 100 Dollars: " + player_in_action.getName());
         Transaction transactionObject = new Transaction();
         transactionObject.UserPayment(player_in_action, 100);
     }

@@ -13,13 +13,6 @@ public class Game {
         this.numberOfTurns   = numberOfTurns;
         this.players = new Player[numberOfPlayers];
     }
-    public int getNumberOfPlayers() {
-        return numberOfPlayers;
-    }
-
-    public int getNumberOfTurns() {
-        return numberOfTurns;
-    }
 
     public void StartGame(){
 
@@ -34,17 +27,18 @@ public class Game {
         }
 
         for(int i =0; i<this.numberOfTurns; i++){
-            System.out.print("Current Turn: " + String.valueOf(i)+ "\n");
+            System.out.println("##### Current Turn: " + String.valueOf(i)+ " #####\n");
+
             for(int j=0; j<this.numberOfPlayers; j++){
 
                 this.gameDice = new Die();
                 int new_position = players[j].getCurrentPosition() +  this.gameDice.getDiceFace();
                 gameBoard.movePlayer(players[j], new_position);
+                System.out.println("\n-------------------------------------------\n");
+
             }
 
         }
-
-
-
+        System.out.println("\nGAME IS OVER\n");
     }
 }
