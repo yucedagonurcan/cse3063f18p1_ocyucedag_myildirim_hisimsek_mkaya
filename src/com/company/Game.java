@@ -39,6 +39,19 @@ public class Game {
             }
 
         }
+        int currentPlayerMoneyAmount = -9000000;
+        int playerIndex = 0;
+        int max_number = 0;
+        for(int i = 0; i < players.length; i++){
+            currentPlayerMoneyAmount = players[i].getPlayerMoney().getMoneyAmount();
+            if(currentPlayerMoneyAmount > max_number){
+                max_number = currentPlayerMoneyAmount;
+                playerIndex = i;
+            }
+        }
+
+        System.out.println("\nWinner is:\n" + players[playerIndex].getName());
+        System.out.println("\nMoney amount is: " + currentPlayerMoneyAmount);
         System.out.println("\nGAME IS OVER\n");
     }
 }
