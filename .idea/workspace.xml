@@ -4,7 +4,6 @@
     <list default="true" id="cc73990d-07aa-48e1-9c2b-8b3e502025ef" name="Default Changelist" comment="+Edits on Game Class&#10;+Winner established&#10;+First iteration ended">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Documents/sequenceDiagram:First Iteration.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" afterPath="$PROJECT_DIR$/src/com/company/Game.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,8 +84,8 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="328">
+              <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -314,7 +313,7 @@
       <workItem from="1541190233471" duration="1339000" />
       <workItem from="1542296033303" duration="9000" />
       <workItem from="1542296107021" duration="14000" />
-      <workItem from="1542630536567" duration="618000" />
+      <workItem from="1542630536567" duration="746000" />
     </task>
     <task id="LOCAL-00001" summary="+ Die, Board, Game, Square, Money, Player and Main classes are created.&#10;+ In every turn every user rolls dice&#10;+ In every turn every can go to the square that corresponds to their current dice values.&#10;+ In every turn, every user's current situation is displayed in console.">
       <created>1540980354209</created>
@@ -379,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541191487746</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="+Edits on Game Class&#10;+Winner established&#10;+First iteration ended">
+      <created>1542631189769</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542631189773</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19361000" />
+    <option name="totallyTimeSpent" value="19489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -856,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="328">
+          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
           <folding />
         </state>
       </provider>
