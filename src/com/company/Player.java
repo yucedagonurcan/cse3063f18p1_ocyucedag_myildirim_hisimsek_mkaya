@@ -4,6 +4,9 @@ public class Player {
 
 
     private Money playerMoney;
+
+
+    private boolean inPrison;
     private int prisonTurnNumber;
     private int currentPosition;
     private String name;
@@ -12,7 +15,9 @@ public class Player {
     public void setPlayerMoney(Money playerMoney) {
         this.playerMoney = playerMoney;
     }
-
+    public void setPlayerMoneyAmount(int playerMoneyAmount) {
+        this.playerMoney.setMoneyAmount(playerMoneyAmount);
+    }
     public void setPrisonTurnNumber(int prisonTurnNumber) {
         this.prisonTurnNumber = prisonTurnNumber;
     }
@@ -32,6 +37,7 @@ public class Player {
         this.name = name;
         this.playerMoney = new Money(playerMoneyAmount);
         this.playerMoney.setMoneyAmount(playerMoneyAmount);
+        this.inPrison = false;
     }
 
 
@@ -49,6 +55,14 @@ public class Player {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public boolean getInPrison() {
+        return inPrison;
+    }
+
+    public void setInPrison(boolean inPrison) {
+        this.inPrison = inPrison;
     }
 }
 

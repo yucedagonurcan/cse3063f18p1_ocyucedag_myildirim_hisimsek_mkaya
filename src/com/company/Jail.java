@@ -2,19 +2,17 @@ package com.company;
 
 import java.util.ArrayList;
 
-public class TaxAdministration extends Square {
+public class Jail extends Square {
 
-
-    public TaxAdministration(){
+    public Jail(){
         this.currentPlayersInPosition = new ArrayList<Player>();
     }
-
     @Override
     public void doAction(Player player_in_action) {
 
-        System.out.println("    --Tax Administration will cut 100 Dollars: " + player_in_action.getName());
-        Transaction transactionObject = new Transaction();
-        transactionObject.UserPayment(player_in_action, 100);
+        player_in_action.setInPrison(true);
+        System.out.println("-- Player: " + player_in_action.getName() + " is in prison now.") ;
+        player_in_action.setPrisonTurnNumber(2);
     }
 
     @Override
@@ -24,7 +22,7 @@ public class TaxAdministration extends Square {
 
     @Override
     public ArrayList<Player> getCurrentPlayersInPosition() {
-        return currentPlayersInPosition;
+        return this.currentPlayersInPosition;
     }
 
     @Override
@@ -35,7 +33,6 @@ public class TaxAdministration extends Square {
 
     @Override
     public String getSquareName() {
-        return squareName;
+        return this.squareName;
     }
-
 }

@@ -1,14 +1,17 @@
 package com.company;
-
+import java.util.Random;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class House extends Square{
 
-
+    public House(){
+        this.currentPlayersInPosition = new ArrayList<Player>();
+    }
     @Override
     public void doAction(Player player_in_action) {
-        if(this.owner_player == player_in_action || this.rented_player == player_in_action){
-            System.out.println("    --(Info) You have already assets for this House");
+        if(this.owner_player == player_in_action ){
+            System.out.println("    --(Info) You already bought this House");
 
         }
         else{
@@ -18,8 +21,10 @@ public class House extends Square{
 
                 Scanner reader = new Scanner(System.in);  // Reading from System.in
                 System.out.println("    -Do you want to buy House " + getSquareName() + " ? : ");
-                String answer = reader.next(); // Scans the next token of the input as an int.
-                if(answer.equals("Y") || answer.equals("y")){
+
+                Random rand = new Random();
+                Boolean answer = rand.nextBoolean(); // Scans the next token of the input as an int.
+                if(answer){
 
                     Transaction transactionObject = new Transaction();
                     System.out.println("    --House: " + getSquareName() + " will be bought by : " + player_in_action.getName());
@@ -27,31 +32,18 @@ public class House extends Square{
                     this.owner_player = player_in_action;
 
                 }
+                else{
+                    System.out.println("    --House: " + getSquareName() + " won't be bought by : " + player_in_action.getName() + "\n    --- Player Rejected...");
+
+                }
 
             }
             // There is an owner, it can be for rent.
-            else if (rented_player == null){
-
-                Scanner reader = new Scanner(System.in);
-                System.out.println("    -Do you want to rent House " + getSquareName() + " ? : ");
-                String answer = reader.next();
-
-                if(answer.equals("Y") || answer.equals("y")){
-
-                    Transaction transactionObject = new Transaction();
-                    System.out.println("    --House: " + getSquareName() + " will be rented by : " + player_in_action.getName());
-                    transactionObject.MoneyTransaction(player_in_action, owner_player, 100);
-                    this.rented_player = player_in_action;
-
-                }
-            }
             else{
-
-                System.out.println("    --(Info) House: " + getSquareName() + " already rented by : " + rented_player.getName());
-
+                Transaction transactionObject = new Transaction();
+                System.out.println("    --House: " + getSquareName() + " will be rented by : " + player_in_action.getName());
+                transactionObject.MoneyTransaction(player_in_action, owner_player, 100);
             }
-
-
         }
 
     }
@@ -62,13 +54,13 @@ public class House extends Square{
     }
 
     @Override
-    public Player getCurrentPlayerInPosition() {
-        return currentPlayerInPosition;
+    public ArrayList<Player> getCurrentPlayersInPosition() {
+        return currentPlayersInPosition;
     }
 
     @Override
-    public void setCurrentPlayerInPosition(Player player) {
-        this.currentPlayerInPosition = player;
+    public void setCurrentPlayersInPosition(Player player) {
+        this.currentPlayersInPosition.add(player);
     }
 
     @Override
