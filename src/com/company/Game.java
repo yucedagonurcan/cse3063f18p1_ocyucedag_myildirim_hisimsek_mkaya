@@ -52,6 +52,6 @@ public class Game {
 
         System.out.println("\nWinner is:\n" + players[playerIndex].getName());
         System.out.println("\nMoney amount is: " + currentPlayerMoneyAmount);
-        System.out.println("\nGAME IS OVER\n");
+        System.out.println("\nGame is Over\n");
     }
 }
