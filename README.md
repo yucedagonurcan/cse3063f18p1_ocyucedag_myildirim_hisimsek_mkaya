@@ -6,7 +6,7 @@ Players has money and they can play until they have enough money. The game is de
 * Onur Can YÜCEDAĞ
 * Halil İbrahim ŞİMŞEK
 * Merve YILDIRIM
-* Muhuttin KAYA
+* Muhittin KAYA
 # PYTHON WORD CLOUD (Second Project)
 
 This project is developed for the second project assignment of Object Oriented Software Design lesson. We have documents and we analyzed these words inside of the documents. We find the TF-IDF values. Then we created a word cloud.
@@ -15,4 +15,4 @@ This project developed by:
 * Onur Can YÜCEDAĞ
 * Halil İbrahim ŞİMŞEK
 * Merve YILDIRIM
-* Muhuttin KAYA
+* Muhittin KAYA
