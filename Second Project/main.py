@@ -119,6 +119,8 @@ def create_tf_idf_matrix():
         return tf_idf_matrix
 
 
+if os.getcwd().split("/")[-1] != "Second Project":
+    os.chdir("Second Project")
 
 file_paths = GetPaperDataFromLink(url="https://www.muratcanganiz.com",
                                   publication_folder_name="/publications",
@@ -128,7 +130,6 @@ file_paths.pop(4)
 file_paths.pop(7)
 file_paths.pop(8)
 file_paths.pop(7)
-
 
 pickle_folder_path = "pickles"
 if not os.path.exists(pickle_folder_path):
@@ -155,7 +156,7 @@ for tf_file_path in tf_files_list:
 
     save_path = tf_cloud_folder_name + "/" +\
         tf_cloud_file_prefix +\
-        re.findall("\d+", tf_file_path)[0] + ".png"
+        re.findall("\d+", tf_file_path)[0] + ".pdf"
 
     generate_wc = GenerateWordCloud.WordCloudGenerator(
         from_file_path=tf_file_path)
@@ -172,7 +173,7 @@ for tf_idf_file_path in tf_idf_files_list:
     # GenerateWordCloud.show_cloud(word_cloud_object)
     save_path = tf_idf_cloud_folder_name + "/" +\
         tf_idf_cloud_file_prefix +\
-        re.findall("\d+", tf_idf_file_path)[0] + ".png"
+        re.findall("\d+", tf_idf_file_path)[0] + ".pdf"
 
     generate_wc = GenerateWordCloud.WordCloudGenerator(
         from_file_path=tf_idf_file_path)
